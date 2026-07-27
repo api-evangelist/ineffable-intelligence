@@ -1,8 +1,18 @@
 aid: ineffable-intelligence
 name: Ineffable Intelligence
-description: Ineffable Intelligence is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Ineffable Intelligence is a frontier artificial intelligence research lab
+  working toward superintelligence. The company is building a "superlearner" -
+  a system designed to discover all knowledge from its own experience, from
+  elementary motor skills through to profound intellectual breakthroughs -
+  driven by reinforcement learning algorithms rather than learning from human
+  data. Its stated mission is "making first contact with superintelligence,"
+  which it believes can be built within years and must be built in a way that is
+  beneficial to humanity. Ineffable Intelligence is backed by Lightspeed Venture
+  Partners and was surfaced through that portfolio into the API Evangelist
+  network. As a research lab it currently publishes a mission-and-beliefs
+  website and a careers board, and does not expose a public API, developer
+  portal, SDKs, or product APIs at this time.
 url: https://raw.githubusercontent.com/api-evangelist/ineffable-intelligence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,54 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/69e5c03a4a2df5e47ab6195b/69f090e5abd8b983144c2375_asset-website-favicon.png
 tags:
 - Company
+- Artificial Intelligence
+- Superintelligence
+- Reinforcement Learning
+- AI Research
+- Machine Learning
+- AGI
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ineffable-intelligence-domain-security.yml
+- type: Website
+  url: https://ineffable.ai
+- type: PrivacyPolicy
+  url: https://ineffable.ai/privacy-policy
+- type: TermsOfService
+  url: https://ineffable.ai/terms-and-conditions
+- type: CookiePolicy
+  url: https://ineffable.ai/cookie-policy
+- type: Careers
+  url: https://jobs.ashbyhq.com/ineffable
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ineffable-intelligence/
+- type: Twitter
+  url: https://x.com/IneffableLabs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
